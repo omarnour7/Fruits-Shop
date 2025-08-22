@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fefefe;
+    color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo h1 {
+    font-size: 22px;
+    color: #333;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+.icon:hover {
+   background-color: #ff6600;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 50px;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    flex: 1;
+    max-width: 50%;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 12px 24px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: 0.3s ease;
+    border: none;
+    display: inline-block;
+}
+
+.btn.orange {
+    background-color: #ff6600;
+    color: #fff;
+}
+
+.btn.black {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn.orange:hover {
+    opacity: 0.9;
+}
+
+.btn.black:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.hero-image {
+    flex: 1;
+    max-width: 45%;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+
+.services {
+    padding: 60px 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.section-title span {
+    font-size: 30px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.section-subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.services-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.service-card {
+    flex: 1 1 30%;
+    border: 1px solid #eee;
+    padding: 30px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    text-align: center;
+    background-color: #fff;
+    border-top: 5px solid transparent;
+}
+
+.service-card img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    color: #ff6600;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.service-card:hover {
+    border-top: 5px solid #ff6600;
+   
+}
+
+.fresh-fruits {
+    padding: 60px 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.read-more {
+    margin-bottom: 20px;
+}
+
+.fruit-highlight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: left;
+}
+
+.fruit-text {
+    flex: 1 1 50%;
+}
+
+.fruit-text h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.fruit-text p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.fruit-image {
+    flex: 1 1 40%;
+    text-align: right;
+}
+
+.fruit-image img {
+    max-width: 250px;
+    width: 100%;
+}
+.grapes-image {
+    width: 100%;
+    height: 150px;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 100px;
+    text-align: center;
+}
